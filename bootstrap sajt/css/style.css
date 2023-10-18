@@ -1,0 +1,317 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.3;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+hr{
+    border-top: 1px dotted black;
+}
+#nav{
+    width: 100%;
+    height: 12,8vh;
+    padding: 0px 5%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.3);
+}
+#nav img{
+    height: 9.6vh;
+}
+#nav img:hover{
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+}
+#navbarNavDropdown ul li{
+    width: 9.51vw;
+    margin: 0.7vw;
+    border-radius: 5px;
+}
+#navbarNavDropdown ul li a.active{
+    color: goldenrod;
+}
+#navbarNavDropdown ul li:hover{
+    background-color: #ddd;
+    height: auto;
+    width: auto;
+}
+#dropdown{
+    min-width: 15rem;
+}
+#dropdownLi ul li:hover{
+    width: auto;
+    height: 4.84vh;
+    margin: 10px;
+    border-radius: 5px;
+}
+.carousel{
+    height: 85vh;
+    width: 100%;
+    background-image: url('../img/pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.carouselText{
+    width: 35%;
+    margin: 5%;
+    background: rgba(250, 250, 250, 0.7);
+    font-size: 15px;
+    
+}
+#carouselSlika1{
+    background-image: url('../img/zaglavlje.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 45%;
+    margin: 5%;
+}
+#carouselSlika2{
+    background-image: url('../img/portfolio1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 45%;
+    margin: 5%;
+}
+#carouselSlika3{
+    background-image: url('../img/portfolio6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 45%;
+    margin: 5%;
+}
+.mainContent{
+    padding: 0px 5%;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    height: auto;
+}
+.contentR{
+    height: 100%;
+}
+.content hr{
+    border-top: 2px dotted black;
+    width: 20%;
+}
+.contentText p{
+    color: gray;
+}
+#imgPrincipi{
+    background-image: url('../img/osnovniPrincipi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+#imgVestine{
+    background-image: url('../img/vestine.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+hr.vestine{
+    margin-top: 0;
+    border-top: 1px solid black;
+    width: 100%;
+}
+.imgPocetna{
+    position: relative;
+    height: auto;
+}
+.imgPocetna img{
+    width: 100%;
+}
+.hoverText{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(238, 235, 235);
+    overflow: hidden;
+    width: 92.5%;
+    height: 0;
+    transition: .5s ease;
+}
+.imgPocetna:hover .hoverText {
+    height: 60%;
+}
+.text{
+    text-align: center;
+    margin-top: 10%;
+}
+.footer{
+    background-color: #000000;
+    color: gray;
+}
+.footer h2{
+    color: white;
+}
+.kontakt{
+    display: flex;
+    justify-content: flex-start;
+}
+.kontakt p{
+    margin-left: 2%;
+}
+#coverMogucnosti{
+    background-image: url(../img/mogucnosti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+}
+#vrline{
+    height: 56.5vh;
+    background-color: #2c2c2c;
+}
+.vrline:hover{
+    background-color: #000000;
+    transition: 1s ease;
+}
+#coverProces{
+    background-image: url('../img/coverProces.jpg');
+    text-align: center;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(0,0,0,0.3);
+}
+#slikaProces{
+    background-image: url('../img/proces.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.coverUsluge{
+    background-image: url('../img/coverUsluge.jpg');
+    text-align: center;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(0,0,0,0.3);
+}
+.miniNav a{
+    border-radius: 0px;
+    background-color: #e6e6e6;
+}
+.miniNav a:hover{
+    background-color: #242424;
+    color: white;
+    transition: 0.4s linear;
+}
+.uslugeImg img{
+    width: 100%;
+}
+.naseUsluge{
+    background-color: rgb(201, 199, 199);
+}
+#coverPortfolio{
+    background-image: url('../img/coverPortfolio.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(0,0,0,0.3);
+}
+.portfolioImg img{
+    width: 100%;
+    height: 100%;
+}
+#coverONama{
+    background-image: url('../img/coverAbout.jpg');
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 85vh;
+    background-color: rgba(0,0,0,0.3);
+}
+.about img{
+    width: 100%;
+}
+#strategija{
+    background-image: url('../img/strategijaCover.jpg');
+    background-size: cover;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: auto;
+    padding-bottom: 20px;
+}
+#imgStrat1{
+    background-image: url(../img/strategija1.jpg);
+    background-size: cover;
+    height: 56.5vh;
+}
+#imgStrat2{
+    background-image: url(../img/strategija2.jpg);
+    background-size: cover;
+    height: 56.5vh;
+}
+#imgStrat3{
+    background-image: url(../img/strategija3.jpg);
+    background-size: cover;
+    height: 56.5vh;
+}
+.contentStrat{
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .3s linear;
+}
+.contentStrat p{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.imgStrat:hover .contentStrat{
+    width: 100%;
+    left: 0;
+}
+.imgStrat{
+    position: relative;
+}
+#coverKontakt{
+    background-image: url(../img/coverKontakt.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    text-align: center;
+    position: relative;
+}
+#kontaktPodaci{
+    background-color: #000000;
+    height: auto;
+    width: 35%;
+    color: gray;
+    padding: 5%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 73vh;
+    right: 70px;
+}
